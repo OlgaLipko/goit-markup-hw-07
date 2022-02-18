@@ -339,7 +339,7 @@ body {
   margin-right: 30px;
 }
 .peculiarities-header,
-.peculiarities-text {
+.peculiarities__text {
   text-align: left;
 }
 
@@ -352,7 +352,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.peculiarities-text {
+.peculiarities__text {
   color: var(--color-text-lighter);
   font-size: 14px;
   line-height: calc(24 / 14);
@@ -378,11 +378,11 @@ body {
 /*наши особенности*/
 
 /*ЧЕМ МЫ ЗАНИМАЕМСЯ*/
-.what-are-we-doing {
+.action {
   padding-bottom: 94px;
 }
 
-.what-are-we-doing-header,
+.action-header,
 .command-header,
 .clients-header {
   color: var(--color-text);
@@ -394,24 +394,24 @@ body {
   margin-bottom: 50px;
 }
 
-.images-what-are-we-doing {
+.action-card {
   display: flex;
   align-items: center;
 }
 
-.doing-cards {
+.action-cards__item {
   display: flex;
   display: inline-block;
   text-align: center;
 }
-.doing-cards:not(:last-child) {
+.action-cards__item:not(:last-child) {
   margin-right: 30px;
 }
-.doing-img-text {
+.action-cards__descript {
   position: relative;
 }
 
-.doing-text {
+.action-cards__text {
   display: flex;
   color: var(--color-text-contrast);
   align-items: center;
