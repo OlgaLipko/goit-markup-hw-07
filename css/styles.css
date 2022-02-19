@@ -858,7 +858,7 @@ body {
   margin-bottom: 12px;
 }
 
-.form {
+.modal-form {
   width: 448px;
   height: 501px;
   margin-left: auto;
@@ -866,7 +866,7 @@ body {
   outline: none;
 }
 
-.form-label {
+.modal-form__label {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -878,11 +878,11 @@ body {
   color: var(--color-text-lighter);
   position: relative;
 }
-.form-label:nth-child(5) {
+.modal-form__label:nth-child(5) {
   margin-bottom: 20px;
 }
 
-.form-label input::placeholder {
+.modal-form__label input::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: calc(14 / 12);
@@ -931,7 +931,7 @@ body {
   border: var(--link-color-change);
 }
 
-.form-label input {
+.modal-form__label input {
   margin: 0px;
   height: 40px;
   width: 448px;
