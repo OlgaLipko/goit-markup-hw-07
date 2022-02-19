@@ -1,0 +1,63 @@
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+body {
+  color: $primary-text-color;
+  background: $background-color;
+  font-family: $primary-font;
+}
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  /*outline: 2px dashed #188ce8;*/
+}
+
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.section-footer {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  &:hover svg,
+  &:focus svg {
+    fill: $link-color-change;
+    color: $color-text-lighter;
+  }
+}
+
+.checkbox,
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
