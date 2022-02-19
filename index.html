@@ -330,10 +330,10 @@
     <a href="./index.html" class="logo-footer-web">Web<span class="logo-footer">Studio</span></a>
     
     <address class="footer-adress">
-        <ul class="adress list">
-            <li class="adress__item">г. Киев, пр-т Леси Украинки, 26  </li>
-            <li class="adress__link"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-            <li class="adress__link"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
+        <ul class="footer-adress__list list">
+            <li class="footer-adress__item--adress">г. Киев, пр-т Леси Украинки, 26  </li>
+            <li class="footer-adress__item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+            <li class="footer-adress__item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
     </address>
 </div>
@@ -395,50 +395,52 @@
     </b>
 
     <label class="modal-form__label">
-        <span class="form-text">Имя
+        <span class="modal-form__text">Имя
 
         </span>
       
-        <input class="modal-input-fields" 
+        <input class="modal-form__input" 
         type="text" 
         name="name" 
         autofocus autocomplete="on"
         placeholder=" "   
         />
-    <svg class="modal-input-icon" width="18" height="18">
+    <svg class="modal-form__icon" width="18" height="18">
         <use href="./images/icons.svg#person-input"></use>
     </svg>
       
     </label> 
     
-    <label  class="modal-form__label"><span class="form-text">Телефон</span>
+    <label  class="modal-form__label">
+        <span class="modal-form__text">Телефон</span>
 
-    <input class="modal-input-fields" type="tel" 
+    <input class="modal-form__input" type="tel" 
     name="tel" 
     autocomplete="on"
     placeholder=" " 
     />
-  <svg class="modal-input-icon" width="18" height="18">
+  <svg class="modal-form__icon" width="18" height="18">
     <use href="./images/icons.svg#phone-input"></use>
 </svg>
 
 </label>
   
-    <label  class="modal-form__label"><span class="form-text">Почта</span>
+    <label  class="modal-form__label">
+        <span class="modal-form__text">Почта</span>
     
-        <input class="modal-input-fields" type="email" 
+        <input class="modal-form__input" type="email" 
     name="mail" 
     autocomplete="on"
     placeholder=" "
     />
-        <svg class="modal-input-icon" width="18" height="18">
+        <svg class="modal-form__icon" width="18" height="18">
         <use href="./images/icons.svg#email-input"></use>
     </svg>
 
     </label>
 
  <label class="modal-form__label">
-    <span class="form-text">
+    <span class="modal-form__text">
     Комментарий  
     </span><textarea class="textarea-comment"
     name="comment" 
@@ -447,17 +449,17 @@
     </label>
 
 
-    <label class="form-field ">
+    <label class="modal-agreement">
        
         <input class="checkbox" 
                type="checkbox" 
                name="agreement" 
                value="agreement" />
-   <span class="icon-check"></span>
-<svg class="form-field-icon">
+   <span class="modal-agreement__icon-empty"></span>
+<svg class="modal-agreement__icon">
     <use href="./images/icons.svg#icon-check-color"></use>
 </svg>
-   <span class="mailing-text">
+   <span class="modal-agreement__text">
     Соглашаюсь с рассылкой и принимаю 
     <a href="" class="agreement">
         Условия договора</a></span>
