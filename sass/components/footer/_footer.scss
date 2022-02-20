@@ -37,16 +37,15 @@
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+    border-radius: 50%;
+    fill: $background-color-command;
+  }
 }
 .footer-social__item + .footer-social__item {
   margin-left: 10px;
-}
-
-.footer-social__link:hover,
-.footer-social__link:focus {
-  background-color: #2196f3;
-  border-radius: 50%;
-  fill: $background-color-command;
 }
 
 .footer-container {
@@ -109,12 +108,13 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: $color-text-contrast;
+    background-color: $background-hero-btn-change;
+  }
 }
-.footer-contact__button:hover,
-.footer-contact__button:focus {
-  color: $color-text-contrast;
-  background-color: $background-hero-btn-change;
-}
+
 .footer-button__icon {
   margin-left: 10px;
 }

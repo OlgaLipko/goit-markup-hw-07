@@ -43,6 +43,7 @@ body {
 
 .link {
   text-decoration: none;
+  color: $color-text-lighter;
   &:hover svg,
   &:focus svg {
     fill: $link-color-change;

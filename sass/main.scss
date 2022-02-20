@@ -2,8 +2,9 @@
 @import './utils/variables';
 @import './base/normalize';
 @import './base/general';
-@import './components/header/_page-header';
 @import './components/logo';
+@import './components/header/_page-header';
+@import './components/header/header-contacts';
 @import './components/main-index/hero';
 @import './components/main-index/peculiarity';
 @import './components/main-index/action';

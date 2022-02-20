@@ -23,10 +23,11 @@
   display: flex;
   display: inline-block;
   text-align: center;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
-.action-cards__item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .action-cards__descript {
   position: relative;
 }

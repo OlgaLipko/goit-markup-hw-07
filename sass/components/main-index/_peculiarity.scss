@@ -10,10 +10,11 @@
 
 .peculiarities__item {
   width: 270px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
-.peculiarities__item:not(:last-child) {
-  margin-right: 30px;
-}
+
 .peculiarities-header,
 .peculiarities__text {
   text-align: left;
