@@ -975,7 +975,7 @@ textarea {
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0);
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .checkbox:focus + .icon-check, .checkbox:focus-visible + .modal-agreement__icon-empty {
   border-color: #2196f3;
