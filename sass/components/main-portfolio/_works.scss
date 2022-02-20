@@ -61,9 +61,7 @@
 }
 
 .works-info {
-  border-right: $line-cards;
-  border-left: $line-cards;
-  border-bottom: $line-cards;
+  @include border-card();
   padding: 20px 24px;
 }
 

@@ -10,6 +10,10 @@ $background-hero-btn-change: #188ce8;
 $link-color-change: #2196f3;
 $color-line: #ececec;
 $color-social-link: #afb1b8;
-$line-cards: 1px solid $color-line;
 $primary-font: 'Roboto', sans-serif;
 $secondary-font: 'Raleway', sans-serif;
+@mixin border-card() {
+  border-right: 1px solid $color-line;
+  border-left: 1px solid $color-line;
+  border-bottom: 1px solid $color-line;
+}
