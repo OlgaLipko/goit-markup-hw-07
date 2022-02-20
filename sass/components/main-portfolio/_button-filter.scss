@@ -44,6 +44,11 @@
 .site-nav__item .link {
   color: $color-text;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: $link-color-change;
+    fill: $link-color-change;
+  }
 }
 
 .footer-adress__item .link {
@@ -63,8 +68,7 @@
 .contacts__icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.site-nav__item .link:hover,
-.site-nav__item .link:focus,
+
 .contacts__item .link:hover,
 .contacts__item .link:focus,
 .adress-link .link:hover,

@@ -248,15 +248,14 @@ body {
   margin-right: auto;
 }
 
-.current.site-nav__item .link {
-  color: #2196f3;
-}
-
 .site-nav__item {
   position: relative;
 }
 .site-nav__item:not(:last-child) {
   margin-right: 50px;
+}
+.site-nav__item .current.site-nav__item .link {
+  color: #2196f3;
 }
 
 .current.site-nav__item::after {
@@ -1085,6 +1084,10 @@ textarea {
   color: #212121;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.site-nav__item .link:hover, .site-nav__item .link:focus {
+  color: #2196f3;
+  fill: #2196f3;
+}
 
 .footer-adress__item .link {
   font-style: normal;
@@ -1105,8 +1108,6 @@ textarea {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav__item .link:hover,
-.site-nav__item .link:focus,
 .contacts__item .link:hover,
 .contacts__item .link:focus,
 .adress-link .link:hover,
