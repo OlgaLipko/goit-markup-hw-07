@@ -15,8 +15,7 @@
 }
 
 .action-card {
-  display: flex;
-  align-items: center;
+  @include flex-center(flex);
 }
 
 .action-cards__item {
@@ -33,10 +32,8 @@
 }
 
 .action-cards__text {
-  display: flex;
   color: $color-text-contrast;
-  align-items: center;
-  justify-content: center;
+  @include flex-center(flex);
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;

@@ -1,7 +1,6 @@
 .container-header-nav,
 .header-nav {
-  display: flex;
-  align-items: center;
+  @include flex-center(flex);
   margin: 0px;
   margin-right: auto;
 }

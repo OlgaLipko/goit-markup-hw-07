@@ -39,15 +39,11 @@
 .peculiarities__picture {
   width: 270px;
   height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex-center(flex);
   background-color: $background-color-command;
   margin-bottom: 30px;
   border-radius: 4px;
 }
 .peculiarities__icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex-center(flex);
 }

@@ -9,13 +9,10 @@
 }
 
 .clients__link {
-  display: flex;
+  @include flex-center(flex);
   border: none;
   width: 170px;
   height: 92px;
-  align-items: baseline;
-  align-items: center;
-  justify-content: center;
   border: 1px solid $color-social-link;
   box-sizing: border-box;
   border-radius: 4px;

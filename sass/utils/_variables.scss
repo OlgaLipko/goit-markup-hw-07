@@ -17,3 +17,19 @@ $secondary-font: 'Raleway', sans-serif;
   border-left: 1px solid $color-line;
   border-bottom: 1px solid $color-line;
 }
+@mixin flex-center($type) {
+  display: $type;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin invisible() {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}

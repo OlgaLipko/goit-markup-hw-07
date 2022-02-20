@@ -22,15 +22,11 @@
 }
 
 .footer-social__item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-center(flex);
 }
 
 .footer-social__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex-center(flex);
   width: 44px;
   height: 44px;
   fill: $background-color-command;
@@ -95,10 +91,8 @@
   font-weight: 700;
   font-size: 16px;
   line-height: calc(30 / 16);
-  display: flex;
   color: $color-text-contrast;
-  align-items: center;
-  text-align: center;
+  @include flex-center(flex);
   letter-spacing: 0.06em;
   padding: 10px 28px;
   border: none;
@@ -130,7 +124,7 @@
   border-radius: 4px;
   width: 358px;
   height: 50px;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: calc(20 / 16);
   letter-spacing: 0.03em;
