@@ -16,8 +16,7 @@
   border: 1px solid $color-social-link;
   box-sizing: border-box;
   border-radius: 4px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @include transition-two(border-color, fill);
   &:hover,
   &:focus {
     border-color: $link-color-change;
@@ -26,5 +25,5 @@
 }
 .clients__icon {
   fill: $color-social-link;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @include transition(fill);
 }

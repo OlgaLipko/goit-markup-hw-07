@@ -41,7 +41,7 @@
 }
 .site-nav__item .link {
   color: $color-text;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @include transition(color);
   &:hover,
   &:focus {
     color: $link-color-change;
@@ -53,7 +53,7 @@
   font-style: normal;
   color: $color-text-footer;
   display: inline-block;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @include transition(color);
   &:not(:last-child) {
     margin-bottom: 9px;
   }
@@ -61,7 +61,7 @@
 
 .contacts__icon,
 .contacts__icon {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @include transition(fill);
 }
 
 .contacts__item .link:hover,

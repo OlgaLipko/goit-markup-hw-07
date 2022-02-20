@@ -37,9 +37,7 @@
     line-height: calc(30 / 16);
     letter-spacing: 0.06em;
     padding: 10px 32px 10px 32px;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include transition(background-color);
 
     &:hover,
     &:focus {

@@ -362,9 +362,7 @@ body {
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
   padding: 10px 32px 10px 32px;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero__button:hover, .hero__button:focus {
   color: #ffffff;
@@ -568,7 +566,7 @@ body {
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients__link:hover, .clients__link:focus {
   border-color: #2196f3;
@@ -691,9 +689,7 @@ body {
   fill: #ffffff;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-contact__button:hover, .footer-contact__button:focus {
   color: #ffffff;
@@ -759,7 +755,7 @@ body {
   left: 50%;
   min-width: 528px;
   min-height: 581px;
-  background-color: #fff;
+  background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transform: translate(-50%, -50%) scale(1);
