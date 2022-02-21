@@ -186,16 +186,6 @@ body {
   /*outline: 2px dashed #188ce8;*/
 }
 
-.section {
-  padding-bottom: 94px;
-  padding-top: 94px;
-}
-
-.section-footer {
-  padding-bottom: 60px;
-  padding-top: 60px;
-}
-
 .list {
   list-style-type: none;
   padding: 0;
@@ -220,6 +210,26 @@ body {
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0);
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  /*outline: 2px dashed #188ce8;*/
+}
+.container-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.section-footer {
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 .logo {
@@ -248,14 +258,15 @@ body {
   margin-right: auto;
 }
 
+.current.site-nav__item .link {
+  color: #2196f3;
+}
+
 .site-nav__item {
   position: relative;
 }
 .site-nav__item:not(:last-child) {
   margin-right: 50px;
-}
-.site-nav__item .current.site-nav__item .link {
-  color: #2196f3;
 }
 
 .current.site-nav__item::after {
@@ -323,6 +334,10 @@ body {
 .contacts__icon {
   margin-right: 10px;
   fill: #757575;
+}
+
+.now-link {
+  color: red;
 }
 
 .hero {
@@ -594,8 +609,10 @@ body {
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
+  display: flex;
   text-decoration: none;
   justify-content: flex-start;
+  margin-bottom: 20px;
 }
 
 .footer-social {
@@ -654,8 +671,8 @@ body {
   display: flex;
 }
 
-.footer-adress__list {
-  margin-top: 20px;
+.footer-adress__item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-adress__item--adress {
@@ -1019,11 +1036,12 @@ textarea {
 }
 
 .submit-button {
-  position: absolute;
-  left: 164px;
-  right: 164px;
-  width: 200px;
-  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 55px;
   border: none;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -1033,9 +1051,6 @@ textarea {
   line-height: calc(30 / 16);
   letter-spacing: 0.06em;
   color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   cursor: pointer;
   outline: none;
 }

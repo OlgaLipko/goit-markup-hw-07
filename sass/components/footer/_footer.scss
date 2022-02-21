@@ -14,9 +14,12 @@
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
+  display: flex;
   text-decoration: none;
   justify-content: flex-start;
+  margin-bottom: 20px;
 }
+
 .footer-social {
   margin-right: 93px;
 }
@@ -66,10 +69,13 @@
 .footer-social-list {
   display: flex;
 }
-.footer-adress__list {
-  margin-top: 20px;
-}
+// .footer-adress__list {
+//   margin-top: 20px;
+// }
 
+.footer-adress__item:not(:last-child) {
+  margin-bottom: 9px;
+}
 .footer-adress__item--adress /**/ {
   display: inline-block;
   color: $color-text-contrast;
