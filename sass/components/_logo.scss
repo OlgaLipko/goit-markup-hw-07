@@ -7,10 +7,20 @@
   letter-spacing: 0.03em;
   text-decoration: none;
   justify-content: flex-start;
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 24px;
   &-header {
     color: $primary-text-color;
   }
+  &-footer {
+    color: $color-text-contrast;
+  }
+}
+
+.header-nav > .logo {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.footer-logo > .logo {
+  margin-bottom: 20px;
 }
