@@ -256,9 +256,6 @@ body {
 }
 
 .footer-logo > .logo {
-  margin-right: 0;
-  padding-top: 0;
-  padding-bottom: 0;
   margin-bottom: 20px;
 }
 
@@ -665,6 +662,10 @@ body {
 
 .footer-social-list {
   display: flex;
+}
+
+.footer-adress {
+  margin-top: 20px;
 }
 
 .footer-adress__item:not(:last-child) {
