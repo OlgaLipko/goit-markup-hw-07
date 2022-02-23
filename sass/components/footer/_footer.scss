@@ -69,14 +69,14 @@
 .footer-social-list {
   display: flex;
 }
-.footer-adress {
-  margin-top: 20px;
-}
+// .footer-adress {
+//   margin-top: 20px;
+// }
 .footer-adress__item:not(:last-child) {
   margin-bottom: 9px;
 }
 .footer-adress__item--adress /**/ {
-  display: inline-block;
+  display: flex;
   color: $color-text-contrast;
   font-style: normal;
   font-size: 14px;
