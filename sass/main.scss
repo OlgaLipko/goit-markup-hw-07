@@ -2,11 +2,10 @@
 @import './utils/variables';
 @import './base/normalize';
 @import './base/general';
-@import './components/main-index/container';
 @import './components/logo';
-@import './components/header/_page-header';
+@import './components/header/page-header';
 @import './components/header/header-contacts';
-@import './components/big-button';
+@import './components/main-index/container';
 @import './components/main-index/hero';
 @import './components/main-index/peculiarity';
 @import './components/main-index/action';
@@ -15,5 +14,6 @@
 @import './components/main-index/client';
 @import './components/footer/footer';
 @import './components/modal/modal';
+@import './components/big-button';
 @import './components/main-portfolio/button-filter';
 @import './components/main-portfolio/works';
