@@ -1,8 +1,6 @@
 /*СОЦСЕТИ*/
 .social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-center(flex);
 }
 
 .social__link {
@@ -16,6 +14,17 @@
   &:focus {
     background-color: $link-color-change;
     fill: $background-color-command;
+  }
+  .footer-social-list & {
+    fill: $color-text-contrast;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    @include transition(background-color);
+    &:hover,
+    &:focus {
+      background-color: #2196f3;
+      fill: $background-color-command;
+    }
   }
 }
 

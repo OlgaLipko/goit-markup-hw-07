@@ -5,12 +5,12 @@
 @import './components/logo';
 @import './components/header/page-header';
 @import './components/header/header-contacts';
-@import './components/main-index/container';
+@import './base/container';
 @import './components/main-index/hero';
 @import './components/main-index/peculiarity';
 @import './components/main-index/action';
 @import './components/main-index/command';
-@import './components/main-index/social-net';
+@import './components/_social';
 @import './components/main-index/client';
 @import './components/footer/footer';
 @import './components/modal/modal';
