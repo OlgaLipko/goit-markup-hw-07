@@ -1,5 +1,4 @@
-.submit-button,
-.hero__button {
+.big-button {
   cursor: pointer;
   display: flex;
   border: 0;
@@ -20,4 +19,7 @@
     color: $color-text-contrast;
     background-color: $background-hero-btn-change;
   }
+}
+.modal-form > .big-button {
+  padding: 10px 55px 10px 55px;
 }
