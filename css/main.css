@@ -201,6 +201,11 @@ body {
   color: #757575;
 }
 
+.footer-adress__item .link:hover,
+.footer-adress__item .link:focus {
+  color: #2196f3;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;

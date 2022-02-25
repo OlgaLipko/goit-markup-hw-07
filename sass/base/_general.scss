@@ -49,11 +49,11 @@ body {
     fill: $link-color-change;
     color: $color-text-lighter;
   }
+}
 
-  &:hover,
-  &:focus {
-    color: $link-color-change;
-  }
+.footer-adress__item .link:hover,
+.footer-adress__item .link:focus {
+  color: $link-color-change;
 }
 
 .visually-hidden {
