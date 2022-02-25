@@ -49,6 +49,11 @@ body {
     fill: $link-color-change;
     color: $color-text-lighter;
   }
+
+  &:hover,
+  &:focus {
+    color: $link-color-change;
+  }
 }
 
 .visually-hidden {
